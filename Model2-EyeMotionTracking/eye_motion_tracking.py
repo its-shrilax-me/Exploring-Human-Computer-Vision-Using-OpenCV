@@ -1,6 +1,7 @@
 import cv2
 
 cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture("eye_movement.mp4")
 
 while True:
     ret, frame = cap.read()
